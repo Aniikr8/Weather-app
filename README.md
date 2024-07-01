@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# Weather App
+This weather app provides real-time weather data for various locations around the world. The data is fetched from a reliable weather API and is displayed based on the local time zone of each location.
+
+<h2>🧐 Features</h2>
+* Real-Time Data: The app fetches the latest weather data for the specified location.
+* Local Time Zone: Weather data is displayed according to the local time zone of the queried location.
+Multiple Locations: Users can query weather information for different cities worldwide.
+
+## Time Zone Handling
+
+The weather data includes the local time of the queried location. This is done to ensure that the weather information is relevant to the user's current time. Each location's time zone is identified using the `tz_id` field from the weather API response.
+
+```
+"location": {         "name": "Delhi"         "region": "Ontario"         "country": "Canada"         "lat": 42.85         "lon": -80.5         "tz_id": "America/Toronto"         "localtime_epoch": 1719833493         "localtime": "2024-07-01 7:31"     }
+```
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
