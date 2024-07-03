@@ -2,9 +2,13 @@
 This weather app provides real-time weather data for various locations around the world. The data is fetched from a reliable weather API and is displayed based on the local time zone of each location.
 
 <h2>🧐 Features</h2>
-* Real-Time Data: The app fetches the latest weather data for the specified location.
-* Local Time Zone: Weather data is displayed according to the local time zone of the queried location.
+  
+  * Real-Time Data: The app fetches the latest weather data for the specified location.
+  * Local Time Zone: Weather data is displayed according to the local time zone of the queried location.
 Multiple Locations: Users can query weather information for different cities worldwide.
+  
+
+
 
 ## Time Zone Handling
 
